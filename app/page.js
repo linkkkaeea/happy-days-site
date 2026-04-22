@@ -1,3 +1,5 @@
+import './globals.css';
+
 export default function Page() {
   return (
     <div className="bg-[#2C1E16] min-h-screen text-[#EADCC9] font-sans overflow-x-hidden">
@@ -5,16 +7,16 @@ export default function Page() {
       <nav className="fixed top-0 w-full p-8 flex justify-between items-center z-50 mix-blend-difference">
         <div className="text-xl font-bold tracking-widest">幸福日子</div>
         <div className="flex gap-8 uppercase text-sm tracking-[0.2em]">
-          <a>产品</a>
-          <a>理念</a>
-          <a>商店</a>
+          <a className="cursor-pointer">产品</a>
+          <a className="cursor-pointer">理念</a>
+          <a className="cursor-pointer">商店</a>
         </div>
       </nav>
 
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center items-center relative">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1548943487-a2f4e4b94b13?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
-        <h1 className="text-[12vw] font-serif tracking-tighter leading-none z-10">Mushroom</h1>
+        <h1 className="text-[12vw] font-serif tracking-tighter leading-none z-10">MUSHROOM</h1>
         <p className="text-lg tracking-[0.5em] mt-4 uppercase z-10">Artisanal Chocolate & Biscuit</p>
       </section>
 
@@ -25,7 +27,6 @@ export default function Page() {
           {[1, 2, 3].map((i) => (
             <div key={i} className="group cursor-pointer">
               <div className="aspect-[3/4] bg-[#3a281d] overflow-hidden rounded-sm transition-all duration-700 group-hover:scale-105">
-                {/* Product Placeholder */}
                 <div className="w-full h-full flex items-center justify-center text-xs opacity-50">IMAGE_{i}</div>
               </div>
               <h3 className="mt-8 text-2xl tracking-wide">Signature Dark {i}</h3>
