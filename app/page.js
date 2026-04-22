@@ -14,7 +14,7 @@ export default function Page() {
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center items-center relative">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1548943487-a2f4e4b94b13?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
-        <h1 className="text-[12vw] font-serif tracking-tighter leading-none z-10">MUSHROOM</h1>
+        <h1 className="text-[12vw] font-serif tracking-tighter leading-none z-10">Mushroom</h1>
         <p className="text-lg tracking-[0.5em] mt-4 uppercase z-10">Artisanal Chocolate & Biscuit</p>
       </section>
 
