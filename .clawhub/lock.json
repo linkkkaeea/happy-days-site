@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775934833894
+    },
+    "self-improving-agent": {
+      "version": "3.0.13",
+      "installedAt": 1775934903137
+    },
+    "openclaw-skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775935262832
+    },
+    "tiktok-crawling": {
+      "version": "1.0.0",
+      "installedAt": 1775935363592
+    },
+    "ffmpeg-video-editor": {
+      "version": "1.0.0",
+      "installedAt": 1775937660164
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1775937729503
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1775937839299
+    },
+    "tiktok-scraper": {
+      "version": "1.0.0",
+      "installedAt": 1775943868407
+    }
+  }
+}
